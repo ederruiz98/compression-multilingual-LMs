@@ -3,6 +3,7 @@
 This is the code used for my study titled "Exploring Geometric Compression Across Languages in Multilingual Language Models".
 
 Abstract
+
 This study explores geometric compression of linguistic data across languages in multilingual language models using the Europarl corpus, focusing on three models: BLOOM, XLM-RoBERTa, and Mistral. We estimate the intrinsic dimension (ID) of hidden representations at each layer to quantify geometric compression. In Transformer-based LMs, the last hidden representation arises from a series of intermediate representations computed through a number of identical modules. Our analysis reveals that the ID of these representations is significantly smaller than the ambient dimension, with distinct compression patterns across languages. Languages from the same family exhibit similar ID amplitudes, suggesting that shared linguistic properties impact the dimensionality of model representations. Additionally, we find that the model’s performance on a language correlates with the ID amplitude at the first high-dimensionality phase, indicating that the learned linguistic properties influence compression. These findings complement those found in other studies, bringing new insights to our understanding of how state-of-the-art LLMs process and compress linguistic data in different languages.
 
 How to run this code:
