@@ -8,7 +8,7 @@ This study explores geometric compression of linguistic data across languages in
 
 How to run this code:
 
-1. datasets_preprocessing.py -> This processes the given subset of the Europarl corpus, extracting 20k sentences for each language and converting them into 20-word lines. Then both datasets are split in 2 (to avoid memory issues) and the 4 datasets (2 per language) are written to text files. Usage example:
+1. datasets_preprocessing.py -> This processes the given subset of the Europarl corpus, extracting 20k sentences for each language and converting them into 20-word lines. Then both datasets are split in 2 (to avoid memory issues) and the 4 datasets (2 per language) are written to text files. For reproducibility, in order to get the exact same set of 20K random sentences, the random seed was set to 23. Usage example:
 
   python datasets_preprocessing.py en es
   
